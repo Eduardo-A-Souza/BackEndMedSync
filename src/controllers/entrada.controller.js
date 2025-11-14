@@ -67,8 +67,3 @@ export async function getEntries(req, res) {
     return res.status(500).json({ message: `Erro ao ler entradas ${err}` });
   }
 }
-
-export async function getEntriesById(req, res) {
-  try {
-  } catch (err) {}
-}

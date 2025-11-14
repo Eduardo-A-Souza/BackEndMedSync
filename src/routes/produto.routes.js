@@ -13,13 +13,13 @@ const router = Router();
 router.post("/", createProduct);
 
 // Put
-router.put("/editById/:id", editProduct);
+router.put("/editById/", editProduct);
 
 // Get
 router.get("/", getProducts);
 router.get("/getById/:id", getProductById);
 
 // delete
-router.delete("/deleteById/:id", deleteProduct);
+router.delete("/deleteByName/:nome", deleteProduct);
 
 module.exports = router;
