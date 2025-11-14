@@ -10,7 +10,7 @@ const app = express();
 app.use(
   cors({
     origin:
-      "http://localhost:3000" |
+      "http://localhost:3000" ||
       "https://front-end-medsync-production.up.railway.app:8080/",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
