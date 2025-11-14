@@ -17,7 +17,6 @@ router.put("/editById/", editProduct);
 
 // Get
 router.get("/", getProducts);
-router.get("/getById/:id", getProductById);
 
 // delete
 router.delete("/deleteByName/:nome", deleteProduct);
